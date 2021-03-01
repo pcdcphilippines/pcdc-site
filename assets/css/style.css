@@ -1,0 +1,384 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.txt-overlay {
+  position: absolute;
+  top: 80%;
+  left: 18%;
+  padding: 12px 50px;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  color: whitesmoke;
+  font-family: 'Poppins',sans-serif;
+  font-size: 12px;
+  border: none;
+}
+
+.hov {
+  display: inline-block;
+  position: relative;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+}
+
+.hov:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #148607;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.hov:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+footer {
+  background-color: #17202A ;
+}
+
+.footer-tag {
+  padding: 20px;
+  color: #fff;
+}
+
+.footer-ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.footer-txt {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+
+.sub-txt {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 45pz;
+  color: #17202A ;
+}
+
+.icon {
+  width: 90px;
+  height: 90px;
+}
+
+.subnav {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
+
+.img-lg {
+  width: 310px;
+  height: 170px;
+  box-shadow: 5px 5px 8px;
+}
+
+.img-footer {
+  width: 90px;
+  height: 120px;
+}
+
+.img-home {
+  width: 100%;
+  height: 700px;
+  filter: grayscale(30%);
+}
+
+.brand {
+  width: 56px;
+  height: 48px;
+}
+
+.second {
+  background-color: #858585 ;
+  padding-bottom: 10px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  color: #eeeeee;
+}
+
+.round {
+  border-radius: 2px;
+  box-shadow: 5px 5px 8px;
+}
+
+.masthead {
+  height: 100vh;
+  width: 100%;
+  min-height: 500px;
+  background-image: url('../site-img/pililia1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(3px);
+}
+
+.masthead:hover {
+  filter: blur(0px);
+}
+
+.footerest {
+  color: #fff;
+}
+
+.bg-about {
+  height: 50vh;
+  width: 100%;
+  min-height: 500px;
+  background-image: url('../site-img/');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cards {
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 2px;
+  box-shadow: 0px 5px 10px #B4B4B4;
+  background-color: #fff;
+  transition: background-color 0.5s ease;
+}
+
+.cards:hover {
+  box-shadow: 0px 10px 10px;
+  background-color: #ff9800;
+}
+
+.cards2 {
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 2px;
+  box-shadow: 0px 5px 10px #B4B4B4;
+  background-color: #fff;
+  transition: background-color 0.5s ease;
+}
+
+.cards2:hover {
+  box-shadow: 0px 10px 10px;
+  background-color:  #ff6f61;
+}
+
+
+.heading-design {
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: solid 1px #212121;
+  padding: 2rem;
+  transition: background-color 0.5s ease;
+}
+
+.heading-design:hover {
+  background-color: #ff9800;
+  border-bottom: solid 1px #ff9800;
+}
+
+.heading-prog {
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: solid 1px #212121;
+  padding: 2rem;
+  transition: background-color 0.5s ease;
+  transition: color 0.5s ease;
+}
+
+.heading-prog:hover {
+  color: #eeeeee;
+  background-color: #212121;
+  border-bottom: solid 1px #212121;
+}
+
+.heading-music {
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: solid 1px #212121;
+  padding: 2rem;
+  transition: background-color 0.5s ease;
+}
+
+.heading-music:hover {
+  background-color: #ff6f61;
+  border-bottom: solid 1px #ff6f61;
+}
+
+.tab-content {
+  display: none;
+}
+
+.left-content {
+  padding-left: 4rem;
+  padding-top: 4rem;
+  font-size: 3.75rem;
+}
+
+.right-content {
+  padding-left: 4rem;
+  padding-top: 4rem;
+}
+
+.img-custwidth {
+  padding-top: 4rem;
+  width: 512px;
+}
+
+.banner {
+  width: 100%;
+  filter: grayscale(50%);
+}
+
+.banner-txt {
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  color: #858585;
+}
+
+.name-plate {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  color:  #858585;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.crd {
+  border: none;
+  box-shadow: 5px 5px 8px;
+}
+
+.crd:hover {
+  box-shadow: 9px 9px 15px;
+  cursor: pointer;
+}
+
+.card-image {
+  height: 420px;
+  width: 100%;
+}
+
+#image {
+  cursor: pointer;
+}
+
+#image:hover {
+  opacity: 0.7;
+}
+
+#smallGallery {
+  filter: grayscale(70%);
+}
+
+/* modal background */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9) /* black with opacity */
+}
+
+/* modal content image */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* zoom animation for the modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover, .close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
