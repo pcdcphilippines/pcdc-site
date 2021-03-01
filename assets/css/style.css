@@ -163,7 +163,7 @@ h2 {
   transition: background-color 0.5s ease;
 }
 
-.cards:hover {
+.cards101 {
   box-shadow: 0px 10px 10px;
   background-color: #ff9800;
 }
@@ -177,7 +177,7 @@ h2 {
   transition: background-color 0.5s ease;
 }
 
-.cards2:hover {
+.cards202 {
   box-shadow: 0px 10px 10px;
   background-color:  #ff6f61;
 }

@@ -12,6 +12,31 @@ page.onscroll = () => {
     }
 }
 
+const isInViewport = function (elem) {
+    var bounding = elem.getBoundingClientRect();
+    return (
+        bounding.top >= 0 &&
+        bounding.left >= 0 &&
+        bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        bounding.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+};
+
+let project1 = document.querySelector('#project1');
+let project2 = document.querySelector('#project2');
+
+window.addEventListener('scroll', function (event) {
+    if (isInViewport(project1)) {
+        project1.classList.add('cards101')
+    }
+}, false);
+
+window.addEventListener('scroll', function (event) {
+    if (isInViewport(project2)) {
+        project2.classList.add('cards202')
+    }
+}, false);
+
 
 // Author: Nicholas Fazzolari
 // Basic tab switching code in pure ES6
