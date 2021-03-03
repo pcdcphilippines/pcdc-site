@@ -52,6 +52,41 @@ const openPhotoSwipe = () => {
             src : './assets/site-img/extended.jpg',
             w : 752,
             h : 368
+        },
+        {
+            src : './assets/site-img/backhoebarge.jpg',
+            w : 768,
+            h : 432
+        },
+        {
+            src : './assets/site-img/crane.jpg',
+            w : 720,
+            h : 960
+        },
+        {
+            src : './assets/site-img/davillan.jpg',
+            w : 2016,
+            h : 1120
+        },
+        {
+            src : './assets/site-img/sheetpile.jpg',
+            w : 768,
+            h : 432
+        },
+        {
+            src : './assets/site-img/telescopic.jpg',
+            w :  768,
+            h : 432
+        },
+        {
+           src : './assets/site-img/multiple.jpg',
+           w : 752,
+           h : 368 
+        },
+        {
+            src : './assets/site-img/fleet.jpg',
+            w : 1440,
+            h : 1080
         }
     ];
 
